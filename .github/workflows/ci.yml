@@ -18,6 +18,7 @@ on:
       - 'setup.py'
       - 'src/**'
       - 'tables/**'
+      - 'tests/**'
 
   pull_request:
     branches: [ "master" ] # Run in PRs targeting the "master" branch
@@ -36,6 +37,7 @@ on:
       - 'setup.py'
       - 'src/**'
       - 'tables/**'
+      - 'tests/**'
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
